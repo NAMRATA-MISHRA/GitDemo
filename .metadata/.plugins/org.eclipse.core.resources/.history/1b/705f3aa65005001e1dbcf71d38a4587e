@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.w2a</groupId>
+  <artifactId>DataDrivenFramework</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+  		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.8.1</version>
+</dependency>
+  		<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<!-- https://mvnrepository.com/artifact/com.relevantcodes/extentreports -->
+<dependency>
+    <groupId>com.relevantcodes</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>2.41.2</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+<dependency>
+    <groupId>log4j</groupId>
+    <artifactId>log4j</artifactId>
+    <version>1.2.7</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail -->
+<dependency>
+    <groupId>javax.mail</groupId>
+    <artifactId>javax.mail</artifactId>
+    <version>1.4.0.v201005080615</version>
+</dependency>
+
+  		
+  </dependencies>
+  
+  
+</project>

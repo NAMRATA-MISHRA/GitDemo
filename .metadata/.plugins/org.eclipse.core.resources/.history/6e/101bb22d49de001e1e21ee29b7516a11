@@ -1,0 +1,12 @@
+package dataDriven.excelIntegration;
+
+import org.testng.annotations.Test;
+
+public class excel {
+
+	@Test
+	public void getExcel()
+	{
+		
+	}
+}

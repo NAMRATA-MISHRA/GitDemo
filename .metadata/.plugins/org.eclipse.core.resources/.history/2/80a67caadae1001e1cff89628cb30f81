@@ -1,0 +1,63 @@
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+import org.testng.annotations.Test;
+
+public class test1 {
+
+	// Count the number of names starting with alphabet A in list
+	@Test
+	public void regular() {
+	ArrayList<String> names = new ArrayList<String>();
+	names.add("abhijeet");
+	names.add("don");
+	names.add("adam");
+	names.add("alekyha");
+	names.add("ram");
+	int count = 0;
+	
+	for(int i=0;i<names.size();i++) {
+		String actual = names.get(i);
+		if(actual.startsWith("a"))
+		{
+			count++;
+		}
+	}
+	System.out.println(count);
+	
+	}
+	@Test
+	public void streamFilter() {
+
+		ArrayList<String> names = new ArrayList<String>();
+		names.add("abhijeet");
+		names.add("don");
+		names.add("adam");
+		names.add("alekyha");
+		names.add("ram");
+		//there is no life for intermediate operation if there is no terminal operation
+		//terminal operation will execute only if there intermediate operation(filter) returns true
+		//we can stream
+		//how to use filter in stream API
+		Long c = names.stream().filter(s -> s.startsWith("a")).count();
+		System.out.println(c);
+	    long d=	Stream.of("abhijeet","don","alekhya","adam","ram").filter(s -> 
+		  {
+			s.startsWith("a");
+			return true;
+		  }).count();
+	    System.out.println(d);
+	    
+	    //print all the names of Arraylist
+	    names.stream().filter(s->s.length()>4).forEach(s->System.out.println(s));
+	    names.stream().filter(s->s.length()>4).limit(1).forEach(s->System.out.println(s));
+	    
+	    
+	    
+	    
+	}
+	public void () {
+		
+	}
+
+}

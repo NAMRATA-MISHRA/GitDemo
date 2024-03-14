@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;DataDrivenFramework/src/test/resources/properties/Config.properties&apos; to &apos;config.properties&apos;" description="Rename resource &apos;Config.properties&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/test/resources/properties/Config.properties" name="config.properties" stamp="1692471275553" updateReferences="true"/>
+</session>
